@@ -1,5 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&family=Montserrat:wght@500&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     border: none;
+}
+
+body {
+    font-family: Crimson-text, sans-serif;
+    font-weight: 300;
+    color: RGB(222, 221, 221);
+    background-image: url('../images/Hero-image\ 2.jpeg');
+    background-color: rgba(0, 0, 0, .6);
+    
+}
+    
+h1 {
+    font-family: Montserrat, sans-serif;
+    color: RGB(234, 17, 11);
+}
+
+#logo {
+    float: left;
+    margin-left: 20px;
+    font-size: 250%;
+}
+
+#menu {
+font-size: 130%;
+}
+
+#logo, #menu {
+    line-height: 75px;
+}
+
+#menu li {
+    list-style-type: none;
+    float: left;
+    margin-right: 20px;
+}
+
+#menu ul {
+    float: right;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu a:hover {
+    border: 1px solid white;
+    padding: 5px;
 }
